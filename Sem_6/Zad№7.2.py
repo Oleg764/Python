@@ -23,10 +23,6 @@ def valid_year(date):
     else:
         return True
 
-
-
-print("Для своей даты в терминале наберите : python Zad№7.py 'дата в формате DD.MM.YYYY'")
-
 if __name__ == '__main__':
    if  valid_year(argv[1]):
          print("Дата существует.")
