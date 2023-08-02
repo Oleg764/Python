@@ -26,7 +26,7 @@ while count != 4:
                 rezult = False
     if __name__=='__main__':
               if rezult :
-                     print('NO','ферзи не бьют друг друга ')
+                     print('NO, ферзи не бьют друг друга ')
                      print(f'координаты х {x}, координаты  у {y}')
                      count+=1
 
