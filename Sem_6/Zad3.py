@@ -12,7 +12,7 @@ for i in range(n):
     x.append(row)
     y.append(col)
 print(f'координаты х {x}, координаты  у {y}')
-correct = True
+rezult = True
 for i in range(n):
     for j in range(i + 1, n):
         if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
