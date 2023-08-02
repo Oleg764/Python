@@ -24,9 +24,9 @@ while count != 4:
             if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
 
                 rezult = False
-
-    if rezult :
-        print('NO','ферзи не бьют друг друга ')
-        print(f'координаты х {x}, координаты  у {y}')
-        count+=1
+    if __name__=='__main__':
+              if rezult :
+                     print('NO','ферзи не бьют друг друга ')
+                     print(f'координаты х {x}, координаты  у {y}')
+                     count+=1
 
