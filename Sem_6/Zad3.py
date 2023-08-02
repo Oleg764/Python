@@ -17,8 +17,8 @@ for i in range(n):
     for j in range(i + 1, n):
         if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
             rezult = False
-
-if rezult:
-    print('NO','ферзи не бьют друг друга ')
-else:
-    print('YES,', 'ферзи  бьют друг друга')
+if __name__ == '__main__':
+       if rezult:
+              print('NO','ферзи не бьют друг друга ')
+       else:
+              print('YES,', 'ферзи  бьют друг друга')
