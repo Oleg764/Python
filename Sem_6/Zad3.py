@@ -19,6 +19,6 @@ for i in range(n):
             rezult = False
 if __name__ == '__main__':
        if rezult:
-              print('NO','ферзи не бьют друг друга ')
+              print('NO,ферзи не бьют друг друга ')
        else:
-              print('YES,', 'ферзи  бьют друг друга')
+              print('YES, ферзи  бьют друг друга')
